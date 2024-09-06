@@ -1,0 +1,24 @@
+{
+    "name": "mvc-nodejs-postgresql-sample",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "keywords": [
+        "mvc",
+        "nodejs",
+        "postgresql",
+        "sample"
+    ],
+    "author": "eliascardona",
+    "license": "ISC",
+    "description": "This is a Node.js like MVC backend-web-service",
+    "dependencies": {
+        "cors": "2.8.5",
+        "dotenv": "16.3.1",
+        "express": "^4.19.2",
+        "nodemon": "^3.1.4",
+        "pg": "^8.12.0"
+    }
+}
